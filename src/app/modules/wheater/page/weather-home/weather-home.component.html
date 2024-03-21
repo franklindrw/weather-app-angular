@@ -1,1 +1,15 @@
-<p>weather-home works!</p>
+<div class="search">
+  <form #form="ngForm" (submit)="onSubmit">
+    <input type="text" name="city" placeholder="Buscar cidade" [(ngModel)]="initialCity" />
+
+    <span (click)="onSubmit()">
+      <fa-icon
+        animation="fade"
+        style="--fa-animation-duration: 5s; cursor: pointer"
+        size="lg"
+        class="search-icon"
+        [icon]="faSearch"
+      ></fa-icon>
+    </span>
+  </form>
+</div>

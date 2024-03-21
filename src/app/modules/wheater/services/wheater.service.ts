@@ -6,7 +6,7 @@ import { environment } from 'src/environments/environment.prod';
 @Injectable({
   providedIn: 'root'
 })
-export class WheaterService {
+export class WeatherService {
   private apiKey = environment.API_KEY;
   private apiUrl = environment.API_URL;
 
