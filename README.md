@@ -12,10 +12,10 @@
 
 | :placard: Vitrine.Dev | https://cursos.alura.com.br/vitrinedev/franklindrw |
 | -------------  | --- |
-| :sparkles: Nome        |  API REST - Notifications
-| :label: Tecnologias | Node, NestJs, Typescript, Prisma, mySql, Jest
+| :sparkles: Nome        |  SPA - Weather Angular
+| :label: Tecnologias | Angular SCSS
 | :rocket: URL         | 
-| :fire: Desafio     | Microserviço Node feito com arquitetura API REST, usando framework NestJS e Typescript.
+| :fire: Desafio     | Criação de um webapp SPA com Angular para mostrar dados metereológicos da API OpenWather
 
 <br /><br />
 
